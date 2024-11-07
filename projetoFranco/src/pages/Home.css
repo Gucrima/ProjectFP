@@ -1,0 +1,7 @@
+.texto-bem-vindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #1D3273;
+}
