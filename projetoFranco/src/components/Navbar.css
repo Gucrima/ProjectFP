@@ -1,26 +1,26 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    /* width: 20%; */
     align-items: center;
     gap: 25px;
-    min-width: 100vw;
-    background-color: #1D3273;
-    padding: 30px;
+    min-width: 10vw;
+    background-color: #D61D29;
   }
 
   .navbar a {
-    color: rgb(254, 102, 0);
+    color: #444547;
     font-size: 140%;
     padding: 10px 10px;
     border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease;
+    padding: 20px;
   }
 
   .navbar a:hover {
-    background-color: rgba(0, 89, 254, 0.2);
-    color: rgb(254, 102, 0);
+    background-color: #e0222f;
+    color: #545558;
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }

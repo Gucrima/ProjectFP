@@ -11,7 +11,7 @@ function Home() {
         <Navbar />
       <div className="texto-bem-vindo">
       <h1>Bem Vindo!</h1>
-      <p>Olá {usuarioLogado}</p>
+      <h2>Olá {usuarioLogado}</h2>
         </div>
 
     </div>
