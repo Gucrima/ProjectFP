@@ -1,0 +1,15 @@
+.conteiner-footer{
+    background-color: #545558;
+    border: #545558 solid;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color: #D61D29;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

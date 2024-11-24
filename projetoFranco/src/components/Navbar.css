@@ -1,21 +1,25 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    /* width: 20%; */
+    width: 100%;
     align-items: center;
-    gap: 25px;
-    min-width: 10vw;
-    background-color: #D61D29;
+    gap: 100px;
+    background-color: #545558;
+    padding: 10px;
   }
 
   .navbar a {
-    color: #444547;
+    color: #D61D29;
     font-size: 140%;
     padding: 10px 10px;
     border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
   }
 
   .navbar a:hover {
@@ -27,8 +31,15 @@
 
   .navbar a:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(254, 102, 0, 0.5);
+    
   }
 
+  .navbar img{
+    width: 270px;
+    height: 140px;
+    
+  }
+
+  
 
 

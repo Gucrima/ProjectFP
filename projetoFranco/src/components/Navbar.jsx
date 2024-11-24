@@ -5,7 +5,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-
+        <img src="./Images/logoSemPistola.png" alt="" />
         <Link to="/">Home</Link>
         <Link to="/Agendamento">Agendamento</Link>
         <Link to="/Historia">História</Link>
