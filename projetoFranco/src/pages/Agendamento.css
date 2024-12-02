@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: solid;
+    /* border: solid; */
 }
 
 .texto-contato{
@@ -18,14 +18,77 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.texto-contato h3{
+ font-size: 30px;
+}
+
+.texto-contato h1{
+    font-size: 40px;
+    color: #D61D29;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 body{
     background-color: #cacaca;
     overflow-x: hidden;
 }
 
-.texto-contato img{
-    width: 40%;
-    height: 40%;
- 
+.botaoZap img{
+    width: 70%;
+    height: 30%;
+    /* border: solid; */
+    /* margin-left: 13%; */
 }
+
+.foto_maps{
+    /* border: solid; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.localizacao-linkmaps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: solid; */
+    background-color: #cacaca;
+    width: 75%;
+    border-radius: 10px;
+
+}
+
+
+.localizacao-linkmaps img{
+    width: 20%;
+    /* margin-right: 16%; */
+    
+}
+
+.localizacao-linkmaps a{
+    display: flex;
+    color: #D61D29;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 1%;
+}
+
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: #e0222f 10px solid;
+    width: 30%;
+    /* height: 30%; */
+    padding-top: 77px;
+    /* border: solid; */
+    background-color: #444547;
+}
+

@@ -5,7 +5,10 @@
     align-items: center;
     gap: 100px;
     background-color: #545558;
-    padding: 10px;
+    padding: 9px;
+    border-bottom: #e0222f 10px solid;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.4);
+    /* border-top: #e0222f 4px solid; */
   }
 
   .navbar a {
@@ -13,6 +16,7 @@
     font-size: 140%;
     padding: 10px 10px;
     border-radius: 7px;
+    font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 20px;
