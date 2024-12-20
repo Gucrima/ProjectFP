@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './Historia.css';
 
@@ -19,7 +18,6 @@ function Generica() {
           Nossa missão é proporcionar uma experiência excepcional em cada interação, e estamos comprometidos em manter os mais altos padrões de excelência em tudo o que fazemos. Obrigado por escolher nossa empresa. Estamos ansiosos para trabalhar com você!
         </p>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }

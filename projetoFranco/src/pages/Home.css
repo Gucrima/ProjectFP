@@ -24,17 +24,11 @@ body {
 }
 
 .texto-home h4 {
-    font-size: 40px;
+    font-size: 30px;
     color: #444547;
     margin-bottom: 20px;
 }
 
-.sub-texto {
-    font-size: 18px;
-    color: #444547;
-    margin-bottom: 20px;
-    margin-left: 25px;
-}
 
 .botao-agendamento {
     background-color: #D61D29;

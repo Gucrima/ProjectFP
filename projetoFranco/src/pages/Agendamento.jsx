@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+
 import Navbar from "../components/Navbar";
 import './Agendamento.css';
 
@@ -15,11 +15,6 @@ function Contato() {
         <div className="texto-contato">
           <h1>Entre em Contato!</h1>
           <h1>Seu Carro Como Novo! </h1>
-
-          {/* <h3>
-            Você sabia que um para-choque danificado ou uma pintura desgastada podem prejudicar o visual e até a segurança do seu carro?
-            Aqui na Franco-Parachoques, oferecemos serviços completos de reparo de para-choques, funilaria de qualidade e pintura impecável, tudo feito por profissionais especializados e com materiais de primeira linha!
-          </h3> */}
 
           <div className="texto-contato1">
             <h2>🔧 Conserto de Para-choques</h2>
@@ -60,7 +55,6 @@ function Contato() {
         </div>
       </div>
 
-      {/* <Footer /> */}
     </div>
   );
 }
