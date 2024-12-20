@@ -1,9 +1,117 @@
-.texto-bem-vindo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #444547;
-    font-size: 25px;
+/* Estilos gerais */
+body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.textoEimagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto-home {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.texto-home h1 {
+    color: #D61D29;
+    font-size: 59px;
+    margin-bottom: 20px;
+}
+
+.texto-home h4 {
+    font-size: 40px;
+    color: #444547;
+    margin-bottom: 20px;
+}
+
+.sub-texto {
+    font-size: 18px;
+    color: #444547;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.botao-agendamento {
+    background-color: #D61D29;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 155px;
+    margin-top: 50px;
+    width: 50%;
+    height: 90px;
+    font-size: 210%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-agendamento:hover {
+    background-color: #e0222f;
+}
+
+.imagem-home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-home img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .textoEimagem {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .texto-home {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .texto-home h1 {
+        font-size: 28px;
+    }
+
+    .texto-home h4 {
+        font-size: 20px;
+    }
+
+    .sub-texto {
+        font-size: 16px;
+    }
+
+    .botao-agendamento {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .texto-home h1 {
+        font-size: 24px;
+    }
+
+    .texto-home h4 {
+        font-size: 18px;
+    }
+
+    .sub-texto {
+        font-size: 14px;
+    }
+
+    .botao-agendamento {
+        padding: 12px;
+    }
 }

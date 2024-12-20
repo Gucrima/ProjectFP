@@ -1,8 +1,45 @@
-.texto-servicos{
+.texto-servicos {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #444547;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.carocel {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 35%;
+    width: 30%;
+    height: 80%;
+    padding-top: 1%;
+}
+
+/* Estilos personalizados para o carrossel */
+.custom-carousel .control-arrow {
+    background-color: rgba(0, 0, 0, 0.9); /* Fundo semitransparente */
+    /* border-radius: 10% Arredondar as bordas */
+    width: 6%; /* Largura das setas */
+    height: 90%; /* Altura das setas */
+    color: white; /* Cor das setas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 9px 12px 10px rgb(44, 33, 33); /* Sombra */
+    transition: background-color 1.3s, transform 1.3s; /* Transições suaves */
+}
+
+.custom-carousel .control-arrow:hover {
+    background-color: rgba(253, 33, 33, 0.911); /* Fundo mais escuro ao passar o mouse */
+    transform: scale(1.1); /* Aumentar um pouco o tamanho ao passar o mouse */
+}
+
+.custom-carousel .control-prev.control-arrow {
+    left: 10%; /* Distância da seta esquerda */
+}
+
+.custom-carousel .control-next.control-arrow {
+    right: 10%; /* Distância da seta direita */
 }

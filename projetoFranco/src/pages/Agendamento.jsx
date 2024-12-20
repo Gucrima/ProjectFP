@@ -60,7 +60,7 @@ function Contato() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

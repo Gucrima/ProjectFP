@@ -8,8 +8,8 @@ function Navbar() {
         <img src="./Images/logoSemPistola.png" alt="" />
         <a href="/">Home</a>
         <a href="/Agendamento">Agendamento</a>
-        <a href="/Historia">História</a>
-        <a href="/Servicos">Serviços</a>
+        <a href="/Historia">Sobre Nós</a>
+        <a href="/Servicos">Serviços Já realizados</a>
     </nav>
     
   )

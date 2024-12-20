@@ -1,49 +1,60 @@
+/* Estilos gerais da navbar */
 .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
-    gap: 100px;
-    background-color: #545558;
-    padding: 9px;
-    border-bottom: #e0222f 10px solid;
-    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.4);
-    /* border-top: #e0222f 4px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #545558;
+  border-bottom: #e0222f 10px solid;
+  box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.4);
+}
+
+.navbar img {
+  width: 20%;
+  height: 10%;
+}
+
+.navbar a {
+  color: #D61D29;
+  font-size: 140%;
+  /* padding: 9px 9px; */
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 33px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar a:hover {
+  background-color: #e0222f;
+  color: #545558;
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
   }
 
   .navbar a {
-    color: #D61D29;
-    font-size: 140%;
-    padding: 10px 10px;
-    border-radius: 7px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+      font-size: 24px;
+      padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+      padding: 10px;
   }
 
-  .navbar a:hover {
-    background-color: #e0222f;
-    color: #545558;
-    transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  .navbar a {
+      font-size: 18px;
+      padding: 8px 10px;
   }
-
-  .navbar a:focus {
-    outline: none;
-    
-  }
-
-  .navbar img{
-    width: 270px;
-    height: 140px;
-    
-  }
-
-  
-
-
+}

@@ -1,17 +1,27 @@
-import Navbar from "../components/Navbar"
-import './Historia.css'
+import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import './Historia.css';
+
 function Generica() {
   return (
     <div>
-        <Navbar />
-
-        <div className="texto-historia">
-          <h1>História de nossa Empresa</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quam sequi facere fuga vel, commodi praesentium voluptate voluptatum ipsam iure quaerat quibusdam labore quae sapiente, in, incidunt cupiditate rem inventore!</p>
-        </div>
-
+      <Navbar />
+      <div className="texto-historia">
+        <h1>Sobre Nós</h1>
+        <p>
+          Bem-vindo à nossa empresa! Somos dedicados a fornecer serviços de alta qualidade e a garantir a satisfação de nossos clientes. Nossa equipe é composta por profissionais experientes e apaixonados pelo que fazem.
+        </p>
+        <p>
+          Desde a nossa fundação, temos nos esforçado para oferecer soluções inovadoras e personalizadas para atender às necessidades de nossos clientes. Acreditamos na importância de construir relacionamentos duradouros e de confiança com todos que atendemos.
+        </p>
+        <p>
+          Nossa missão é proporcionar uma experiência excepcional em cada interação, e estamos comprometidos em manter os mais altos padrões de excelência em tudo o que fazemos. Obrigado por escolher nossa empresa. Estamos ansiosos para trabalhar com você!
+        </p>
+      </div>
+      {/* <Footer /> */}
     </div>
-  )
+  );
 }
 
-export default Generica
+export default Generica;
